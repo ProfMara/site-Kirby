@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+.perfil{
+    border-bottom: solid 10px yellow;
+    border-radius: 90px;
+    width:500px;
+    height:500px;
+    display: flex;
+
+    
+}
+body{
+    text-align:center;
+    
+}
+.topo{
+    background: linear-gradient(#ffa8e5 0%,  #fff9a8 100%);
+    display: flex;
+    justify-content: center;
+}
+
+
+#nome{
+    position: absolute;
+    left:100px;
+    top:200px;
+    font-size: 50px;
+    font-family: monospace;
+}
+
+#subtitulo{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#texto{
+    font-size: 25px;
+    font-family: monospace;
+}
+#videos{
+    margin-top:100%;
+    font-size: 25px;
+    font-family: monospace;
+
+
+}
+
+
+
+#site{
+    margin-top:50%;
+    font-size: 25px;
+    font-family: monospace;
+
+}
+
+
+.line{
+    border:solid;
+}
+
+.menu{
+    position:fixed;
+    list-style: none;
+    font-family: 'Cinzel Decorative', cursive;
+    right:30px;
+    top:50px;
+    z-index:10;
+    cursor:pointer;
+}
+
+.link{ 
+    display: inline;
+    float:left;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+
+}
+
+a{
+    color:red;
+    text-decoration: none;
+}
+
+a:hover{
+    color:tomato;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.contact_1{
+    color:black;
+    font-size: 50px;
+}
+
+/* Código para deixar a navbar grudada no topo do site */
